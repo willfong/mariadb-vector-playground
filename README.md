@@ -119,7 +119,7 @@ python3 playground.py --prompt "Who created MariaDB?"
 
 Sample Output
 
-```sh
+```text
 ╭──────────────────────────── Search query ─────────────────────────────╮
 │ Who created MariaDB?                                                  │
 ╰───────────────────────────────────────────────────────────────────────╯
