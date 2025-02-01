@@ -10,10 +10,10 @@ A simple playground to experiment with vector searching using MariaDB and ChatGP
 
 ## Features
 
-• Web Scraping: Download and convert webpages (e.g., Wikipedia) into Markdown.
-• Data Chunking & Embeddings: Split the scraped data into chunks and generate vector embeddings using ChatGPT.
-• Vector Search: Store embeddings in MariaDB and perform similarity searches.
-• Chat Integration: Use search results as context to generate a full response via ChatGPT.
+- Web Scraping: Download and convert webpages (e.g., Wikipedia) into Markdown.
+- Data Chunking & Embeddings: Split the scraped data into chunks and generate vector embeddings using ChatGPT.
+- Vector Search: Store embeddings in MariaDB and perform similarity searches.
+- Chat Integration: Use search results as context to generate a full response via ChatGPT.
 
 ## Prerequisites
 
@@ -120,14 +120,16 @@ python3 playground.py --prompt "Who created MariaDB?"
 Sample Output
 
 ```sh
-╭─────────────────────────────────────────────────────────────────── Search query ────────────────────────────────────────────────────────────────────╮
-│ Who created MariaDB?                                                                                                                                │
-╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
-╭────────────────────────────────────────────────────────────────────── Results ──────────────────────────────────────────────────────────────────────╮
-│ MariaDB was created by Michael "Monty" Widenius, who is one of the original developers of MySQL. He founded Monty Program AB, which developed       │
-│ MariaDB as a fork of MySQL due to concerns over MySQL's acquisition by Oracle Corporation in 2009. The initial development was also supported by a  │
-│ group of original MySQL developers.                                                                                                                 │
-╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭──────────────────────────── Search query ─────────────────────────────╮
+│ Who created MariaDB?                                                  │
+╰───────────────────────────────────────────────────────────────────────╯
+╭─────────────────────────────── Results ───────────────────────────────╮
+│ MariaDB was created by Michael "Monty" Widenius, who is one of the    │
+│ founders of MySQL AB. He initiated the development of MariaDB after   │
+│ concerns arose over MySQL's acquisition by Oracle Corporation. The    │
+│ initial development was supported by other original MySQL developers  │
+│ as well as various organizations.                                     │
+╰───────────────────────────────────────────────────────────────────────╯
 ```
 
 ## Schema Details
